@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-contact-server",
+  "version": "1.0.0",
+  "description": "Example server to verify reCAPTCHA v3, validate contact input, rate-limit, and send email.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.8.0",
+    "helmet": "^7.0.0",
+    "nodemailer": "^6.9.4"
+  }
+}
